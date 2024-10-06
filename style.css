@@ -1,0 +1,28 @@
+* {
+  background-color: rgb(245, 206, 212);
+}
+body {
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+input[placeholder="Enter Your task"] {
+  border: 2px solid black; /* Adds a blue border */
+  padding: 5px; /* Adds padding */
+  font-size: 18px; /* Sets the font size */
+  border-radius: 15px;
+  text-align: center;
+}
+input:hover {
+  border-color: rgb(133, 133, 245);
+}
+button {
+  border-radius: 10px;
+  height: 20px;
+  width: 100px;
+}
+button:hover {
+  color: rgb(211, 98, 136);
+  border-color: rgb(204, 54, 79);
+}
